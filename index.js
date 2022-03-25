@@ -1,4 +1,4 @@
-const express=require("express"),app=express();app.get("/",function(e,p){p.send("Hello World")}),app.listen(3e3);
+>const express=require("express"),app=express();app.get("/",function(e,p){p.send("Hello World")}),app.listen(3e3);
 
 const { Client, Collection } = require("discord.js"),
   { GCommands, Color } = require("gcommands"),
